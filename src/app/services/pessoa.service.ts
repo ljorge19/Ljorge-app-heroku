@@ -8,7 +8,7 @@ import 'rxjs/Rx';
 @Injectable()
 export class PessoaService {
 
-  private url: string = 'http://localhost:3005/pessoas'
+  private url: string = 'http://banco-server.herokuapp.com/pessoas'
 
   constructor(private _http: Http) {}
 
